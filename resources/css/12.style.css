@@ -1,0 +1,13 @@
+.size-test {
+    border: 5px solid red;
+}
+
+#test1 {
+    width: 200px;
+    height: 200px;
+}
+
+#test2 {
+    width: 50%;
+    height: 150px;
+}

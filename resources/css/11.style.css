@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(196, 253, 255);
+    background-color: rgba(196, 253, 255, 0.3);
+  }
+  #div-bg {
+    background-color: white;
+    padding: 20px;
+    border: 10px solid blue;
+    width: 50%; /* 내용만 50% */
+  }
+  
+
+.div-test {
+    margin: 30px;
+    background-color: bisque;
+    border: 2px dotted;
+    padding: 10px;
+}
+
+#div1 {
+    background-clip: border-box;
+}
+#div2{
+    background-clip: padding-box;
+}
+#div3{
+    background-clip: content-box;
+}
+
+#bg-img{
+    border: 1px solid;
+    width: 70%;
+    height: 800px;
+
+    background-image: url(../../../HTML5/resources/img/cat1.jpg);
+    background-repeat: no-repeat;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  background-size: auto;  /* 기본값 이미지 사이즈 */
+  background-size: contain; /* 해당 요소안에 이미지가 모두 보이게 */
+  background-size: cover;
+}
